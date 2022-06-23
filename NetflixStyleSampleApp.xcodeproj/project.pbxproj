@@ -20,6 +20,8 @@
 		D860745828619E3D0078AF42 /* ContentCollectionViewRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860745728619E3D0078AF42 /* ContentCollectionViewRankCell.swift */; };
 		D860745A2861ACEE0078AF42 /* ContentCollectionViewMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86074592861ACEE0078AF42 /* ContentCollectionViewMainCell.swift */; };
 		D860745C2861B7A30078AF42 /* UIButtonEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860745B2861B7A30078AF42 /* UIButtonEx.swift */; };
+		D8D54FD22864334F005B96DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D54FD12864334F005B96DB /* ContentView.swift */; };
+		D8D54FD4286434C0005B96DB /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D54FD3286434C0005B96DB /* ContentDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		D860745728619E3D0078AF42 /* ContentCollectionViewRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewRankCell.swift; sourceTree = "<group>"; };
 		D86074592861ACEE0078AF42 /* ContentCollectionViewMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewMainCell.swift; sourceTree = "<group>"; };
 		D860745B2861B7A30078AF42 /* UIButtonEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonEx.swift; sourceTree = "<group>"; };
+		D8D54FD12864334F005B96DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8D54FD3286434C0005B96DB /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 				D86074592861ACEE0078AF42 /* ContentCollectionViewMainCell.swift */,
 				D8607455286190370078AF42 /* ContentCollectionViewHeader.swift */,
 				D860745B2861B7A30078AF42 /* UIButtonEx.swift */,
+				D8D54FD3286434C0005B96DB /* ContentDetailView.swift */,
 				D860743F286186380078AF42 /* Assets.xcassets */,
 				D8607441286186380078AF42 /* LaunchScreen.storyboard */,
 				D8607444286186380078AF42 /* Info.plist */,
 				D860744F28618B120078AF42 /* Content.plist */,
+				D8D54FD12864334F005B96DB /* ContentView.swift */,
 			);
 			path = NetflixStyleSampleApp;
 			sourceTree = "<group>";
@@ -165,11 +171,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8607437286186360078AF42 /* AppDelegate.swift in Sources */,
+				D8D54FD4286434C0005B96DB /* ContentDetailView.swift in Sources */,
 				D8607456286190370078AF42 /* ContentCollectionViewHeader.swift in Sources */,
 				D8607439286186360078AF42 /* SceneDelegate.swift in Sources */,
 				D860745828619E3D0078AF42 /* ContentCollectionViewRankCell.swift in Sources */,
 				D860744B2861868C0078AF42 /* HomeViewController.swift in Sources */,
 				D860745A2861ACEE0078AF42 /* ContentCollectionViewMainCell.swift in Sources */,
+				D8D54FD22864334F005B96DB /* ContentView.swift in Sources */,
 				D860745228618B400078AF42 /* Content.swift in Sources */,
 				D860745C2861B7A30078AF42 /* UIButtonEx.swift in Sources */,
 				D860745428618E3A0078AF42 /* ContentCollectionViewCell.swift in Sources */,
